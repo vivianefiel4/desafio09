@@ -1,0 +1,85 @@
+body{
+      
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background-image: url(../Desafio09/imagens09/fundo.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: initial;
+    background-attachment: fixed;
+    background-size: cover;
+    
+} 
+
+ 
+  
+h1{
+    font-weight: 400px;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+    color: white;
+     
+}    
+
+.cards_container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;     
+   
+              
+ }
+  
+ .card{
+    
+    box-sizing: border-box;
+    height: 260px;
+    width: fit-content;
+ }   
+    
+
+p{     
+    font-size: 16px;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 0;
+    color: white;
+    padding: 8px;
+    background-color: brown;
+
+}
+ 
+.tamanho{
+    display: block;
+    height: 70%;
+   
+}
+
+
+ main{
+    margin-top: 30px;
+    margin-bottom: 15%;
+
+
+ }  
+
+
+@media(max-width: 800px){
+    .cards_container{
+        flex-direction: column;
+        align-items: center;
+             
+        
+    }
+    
+}
+
+
+footer {
+    background-color: brown;
+    color:  white;
+    padding: 1.2em;
+    text-align: center;
+    font-size: 1.2em;
+        
+} 
