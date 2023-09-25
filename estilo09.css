@@ -2,7 +2,7 @@ body{
       
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-    background-image: url(../Desafio09/imagens09/fundo.jpg);
+    background-image: url(./imagens09/fundo.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-color: initial;
